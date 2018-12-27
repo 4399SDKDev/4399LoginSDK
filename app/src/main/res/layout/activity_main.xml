@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f1f1f1"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/navigation_title"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/m4399loginsdk_ope_color_green"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/app_name"
+        android:gravity="center_vertical"
+        android:textColor="@color/m4399loginsdk_ope_color_white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sdk_version"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="320dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="6dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m4399loginsdk_nav_btn_selector"
+                    android:onClick="onRegisterClicked"
+                    android:text="用户注册"
+                    android:textColor="@color/m4399loginsdk_ope_color_white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_2"
+                    android:layout_width="320dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="6dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m4399loginsdk_nav_btn_selector"
+                    android:onClick="onLoginClicked"
+                    android:text="用户登录"
+                    android:textColor="@color/m4399loginsdk_ope_color_white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_5"
+                    android:layout_width="320dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="6dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/m4399loginsdk_nav_btn_selector"
+                    android:onClick="onVersionClicked"
+                    android:text="版本信息"
+                    android:textColor="@color/m4399loginsdk_ope_color_white" />
+            </TableRow>
+        </TableLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
