@@ -7,7 +7,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
-        versionName "2.0.0.0"
+        versionName "2.0.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -25,5 +25,5 @@ android {
 
 dependencies {
     implementation 'com.android.support:support-v4:28.0.0'
-    implementation 'cn.m4399.sdk:login:2.0.0.0'
+    implementation 'cn.m4399.sdk:login:2.0.0.1'
 }
