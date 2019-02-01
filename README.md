@@ -32,7 +32,7 @@ android {
 dependencies {
     // v4、v7、v13都可以，建议用最新版本
     implementation 'com.android.support:support-v4:28.0.0'
-    implementation 'cn.m4399.sdk:login:2.0.0.0'
+    implementation 'cn.m4399.sdk:login:2.0.0.1'
 }
 ```
 
