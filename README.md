@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 # **登录SDK2.0.0.0**
 ## **一、修改记录**
@@ -12,13 +13,18 @@
 | 2.0.0.0 | 2018-12-25  | S.C.Tu | 代码重构以及使用新设计规范 |
 | 2.0.0.1 | 2018-01-31  | S.C.Tu | OpeFragmentFactory空指针处理 |
 
+=======
+﻿# 4399登录SDK 接入说明
+
+>>>>>>> parent of 1145bb5... 2.0.0.0项目重构
 
 
 
-## **二、接入登录SDK**
+# 登陆 SDK 下载
 
-### **1.  导入SDK依赖**
+* [v1.2.8](https://github.com/4399SDKDev/4399LoginSDK/blob/master/m4399LoginSDKv1.2.8.zip)**(2018-07-09)**
 
+<<<<<<< HEAD
 - 在需要接入SDK的android studio module下的gradle文件中加入：
 ``` xml
 android {
@@ -35,8 +41,12 @@ dependencies {
     implementation 'cn.m4399.sdk:login:2.0.0.1'
 }
 ```
+=======
+>>>>>>> parent of 1145bb5... 2.0.0.0项目重构
 
+# 接入文档
 
+<<<<<<< HEAD
 ### **2.  初始化**
 
 建议在 **Appliction** 类的 onCreate 方法中进行初始化。
@@ -261,3 +271,7 @@ web授权登录
 | 0x103 | 游戏盒授权无结果 |
 | 0x104 | 用户取消登录 |
 
+=======
+[登录sdk接入说明文档](https://github.com/4399SDKDev/4399LoginSDK/blob/master/Document/4399登录SDK接入文档.md)   
+[登录sdk升级日志](https://github.com/4399SDKDev/4399LoginSDK/blob/master/Document/4399登录SDK升级日志.md)   
+>>>>>>> parent of 1145bb5... 2.0.0.0项目重构

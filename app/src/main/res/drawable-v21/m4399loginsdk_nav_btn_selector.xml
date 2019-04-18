@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="@color/m4399loginsdk_ope_color_green_4select">
-    <item>
-        <shape android:shape="rectangle">
-            <solid android:color="@color/m4399loginsdk_ope_color_green" />
-        </shape>
-    </item>
-</ripple>
