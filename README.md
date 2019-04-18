@@ -15,7 +15,11 @@
 
 
 
+<<<<<<< HEAD
 ## **二、接入登录SDK**
+=======
+* [v1.2.6](https://github.com/4399SDKDev/4399LoginSDK/blob/master/m4399LoginSDKv1.2.6.zip)**(2018-1-30)**
+>>>>>>> parent of 746b1b7... 发布1.2.8正式包
 
 ### **1.  导入SDK依赖**
 
