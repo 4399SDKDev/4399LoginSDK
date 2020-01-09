@@ -5,7 +5,7 @@
 
 # 登陆 SDK 下载
 
-* [v1.2.21](https://github.com/4399SDKDev/4399LoginSDK/blob/master/m4399LoginSDKv1.2.21.zip?raw=true)**(2019-07-04)**
+* [v1.2.23](https://github.com/4399SDKDev/4399LoginSDK/blob/master/m4399LoginSDKv1.2.23.zip?raw=true)**(2020-01-09)**
 
 
 # 接入文档
