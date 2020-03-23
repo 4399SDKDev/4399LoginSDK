@@ -5,7 +5,7 @@
 
 # 登陆 SDK 下载
 
-* [v1.2.23](https://github.com/4399SDKDev/4399LoginSDK/archive/v1.2.23.zip)**(2020-01-09)**
+* [v1.2.27](https://github.com/4399SDKDev/4399LoginSDK/archive/v1.2.27.zip)**(2020-03-23)**
 
 
 # 接入文档
